@@ -1,0 +1,32 @@
+{
+  "name": "pdusan/simple-blog",
+  "description": "Add blog functionality to your Laravel project",
+  "keywords": [
+    "laravel",
+    "blog"
+  ],
+  "authors": [
+    {
+      "name": "Dusan Djordjevic",
+      "email": "dusandjordjevic.work@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "laravelcollective/html": "^5.8"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Pdusan\\SimpleBlog\\SBlogServiceProvider"
+      ],
+      "aliases": {
+      }
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Pdusan\\SimpleBlog\\": "src/",
+    }
+  }
+}
